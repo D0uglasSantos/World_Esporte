@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContato.css">
+    <title>Contato</title>
+</head>
+<header>
+    <div class="caixa">
+        <h1><img src="images/newWorldTennisLogo.png" alt="Logo NBA" class="logo"></h1>
+        <nav>
+            <ul>
+                <li class="menus"><a href="home.html">Home</a></li>
+                <li class="menus"><a href="produtos.html">Produtos</a></li>
+                <li class="menus"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+
+    <div class="grupo">
+        <h1 class="titulo">Formulário de contato</h1>
+        <label class="subTitulo"><strong>Complete com as informações:</strong></label>
+    </div>
+
+    <form action="">
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="txtnome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="txtsobrenome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="contentamento"><strong>Selecione o seu nível de contentamento com a loja:</strong></label>
+            <label>
+                <input type="radio" name="contentamento" value="insatisfeito">insatisfeito
+            </label>
+            <label>
+                <input type="radio" name="contentamento" value="poucoSatisfeito">Pouco Satisfeito
+            </label>
+            <label>
+                <input type="radio" name="contentamento" value="satisfeito" checked>Satisfeito
+            </label>
+            <label>
+                <input type="radio" name="contentamento" value="muitoSatisfeito">Muito Satisfeito
+            </label>
+            <label>
+                <input type="radio" name="contentamento" value="SuperSatisfeito">Super Satisfeito
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="textAreaContato"><strong>Conte mais sobre o motivo do contato!</strong></label>
+            <textarea name="textAreaContato" id="motivo" cols="40" rows="15"></textarea>
+        </div>
+
+        <button type="submit" class="botãoEnviar">Enviar</button>
+    </form>   
+</body>
+</html
