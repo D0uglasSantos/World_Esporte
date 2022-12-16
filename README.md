@@ -1,3 +1,3 @@
 # projetinho-html
-Projeto pessoal - HTML e CSS
-Site sobre Tenis e Sapatos
+<h1>Projeto pessoal - HTML e CSS</h1>
+<p>Site sobre Tenis e Sapatos</p>
